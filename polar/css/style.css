@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+ul>li {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {}
+
+.wrapper {
+    min-height: 100%;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+.hero {
+    background-color: #F2CEDA;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0px;
+}
+
+.logo {
+    width: 75px;
+    height: 75px;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__list__item {
+    margin-right: 28px;
+}
+
+.nav__list__item:last-child {
+    margin: 0;
+}
+
+.nav__link {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+
+
+
+    color: #D23166;
+}
+
+.btn {
+    width: 165px;
+    height: 49px;
+    left: 1205px;
+    top: 25px;
+    color: #FAFAFA;
+    background: #D23166;
+    border-radius: 5px;
+}
+
+.hero__headline {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+
+    color: #0F0101;
+}
+
+.hero__title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+
+    color: #0F0101;
+}
+
+.hero__desc {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+
+
+
+    color: #0F0101;
+}
+
+
+
+.order {
+    background-color: rgba(248, 237, 240, 1);
+    padding: 73px 0px;
+}
+
+.order__container {
+    display: flex;
+    align-items: center;
+}
+
+.order__img-wrap {
+    width: 50%;
+}
+
+.order__desc {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.order__img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.action__title {
+    font-family: 'Hind Madurai';
+    padding-bottom: 27px;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 49px;
+}
+
+.action__text {
+    font-family: 'Roboto';
+    color: rgba(21, 1, 1, 0.6);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-right: 192px;
+    padding-bottom: 22px;
+}
+
+.btn {
+    width: 165px;
+    height: 49.13px;
+
+    border: none;
+}
+
+.order__ten::before {
+    content: "";
+    background-color: black;
+    width: 283px;
+    height: 27.07px;
+    border-radius: 50%;
+
+}
+
+.product {}
+
+.product__List {
+    align-items: center;
+}
+
+.nav__list-product {
+    color: rgba(0, 0, 0, 1);
+}
+
+.card:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.card__img-wrap {
+    flex: 1;
+}
+
+.feedback {}
+
+.feedback__content {
+    display: flex;
+
+}
+
+.feedback__column {
+    flex: 1;
+}
+
+.review {}
+
+.review__head {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 59px;
+    height: 59px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.avatar__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+}
+
+.rewiev__title-block {}
+
+.rewiev__subtitle {}
+
+.rewiev__text {
+    width: 322px;
+    position: relative;
+}
+
+.rewiev__text::before {
+    content: url(../img/content/nnennene.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.rewiev-slider {}
+
+.rewiev-slider__ctrls {}
+
+.rewiev-slider___ctrl {}
+
+.rewiev-slider__ctrl_rotate_left {}
+
+.rewiev-slider__ctrl-img {}
+
+.rewiev-slider__list {}
+
+.rewiev-slider__item {}
+
+.rewiev-slider__link {}
+
+.avatar_size_small {}
+
+.feedback__decor {}
+
+.feedback__decor-img {}
